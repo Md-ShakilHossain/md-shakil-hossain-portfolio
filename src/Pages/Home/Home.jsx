@@ -14,12 +14,12 @@ const Home = () => {
     const handleDownloadResume = () => {
         console.log("clicked");
         const link = document.createElement('a');
-        link.href = {cv};
+        link.href = { cv };
         link.download = 'Resume-of-Md-Shakil-Hossain.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-      };
+    };
 
     return (
         <div>
@@ -43,8 +43,8 @@ const Home = () => {
 
                         <div className="flex justify-center mt-6">
                             <button
-                            onClick={handleDownloadResume}
-                            className="btn btn-outline border-b-4 border-teal-500 border-t-0 uppercase text-violet-800 font-bold shadow-xl">Get My Resume</button>
+                                onClick={handleDownloadResume}
+                                className="btn btn-outline border-b-4 border-teal-500 border-t-0 uppercase text-violet-800 font-bold shadow-xl">Get My Resume</button>
                         </div>
                     </div>
                 </div>
@@ -59,8 +59,10 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-            <hr className="mt-8"/>
+
+            <hr className="mt-8" />
             <p className="mt-2 text-center text-gray-400">copyright@2023 - All Right Reserve by Md. Shakil Hossain</p>
+
         </div>
     );
 };
