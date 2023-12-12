@@ -1,12 +1,12 @@
 import { Helmet } from "react-helmet-async";
 import { useTypewriter } from "react-simple-typewriter";
 import flower from '../../assets/images/flower.png';
-import cv from '../../assets/cv/cv.pdf'
+import cv from '../../../public/cv.pdf'
 
 const Home = () => {
 
     const [text] = useTypewriter({
-        words: ['Web Developer'],
+        words: ['Developer'],
         loop: {},
         typeSpeed: 200
     });
@@ -39,7 +39,7 @@ const Home = () => {
                         <h2 className="lg:text-xl text-center">
                             But You can call me as <span className="font-bold uppercase">{`"Shakil"`}</span>
                         </h2>
-                        <h4 className="lg:text-xl text-center lg:mt-8 text-orange-600 font-bold">Front-end {text}</h4>
+                        <h4 className="lg:text-xl text-center lg:mt-8 text-orange-600 font-bold">Web {text}</h4>
 
                         <div className="flex justify-center mt-6">
                             <button
