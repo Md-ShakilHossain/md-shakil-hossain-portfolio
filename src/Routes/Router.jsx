@@ -6,6 +6,9 @@ import Skills from "../Pages/Skills/Skills";
 import Education from "../Pages/Education/Education";
 import Experience from "../Pages/Experience/Experience";
 import Contact from "../Pages/Contact/Contact";
+import DreamJobs from "../Components/DreamJobs/DreamJobs";
+import ShakilTech from "../Components/ShakilTech/ShakilTech";
+import EventManagement from "../Components/EventManagement/EventManagement";
 
 
 export const router = createBrowserRouter([
@@ -36,6 +39,18 @@ export const router = createBrowserRouter([
         {
           path: "/contact",
           element: <Contact></Contact>
+        },
+        {
+          path: "/dreamJob",
+          element: <DreamJobs></DreamJobs>
+        },
+        {
+          path: "/shakilTech",
+          element: <ShakilTech></ShakilTech>
+        },
+        {
+          path: "/eventManagement",
+          element: <EventManagement></EventManagement>
         }
       ]
     },

@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 
 const Projects = () => {
@@ -32,7 +33,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <hr className="mt-2" />
-                    <button className="btn btn-outline w-full border-b-4 border-teal-500 mt-6 border-t-0 uppercase text-violet-800 font-bold shadow-xl">Details</button>
+                    <Link to="/dreamJob"><button className="btn btn-outline w-full border-b-4 border-teal-500 mt-6 border-t-0 uppercase text-violet-800 font-bold shadow-xl">Details</button></Link>
 
                 </div>
                 <div className="w-52 md:w-60 lg:w-80 p-8 bg-teal-100 rounded-xl shadow-xl border-t-2">
@@ -59,7 +60,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <hr className="mt-2" />
-                    <button className="btn btn-outline w-full border-b-4 border-teal-500 mt-6 border-t-0 uppercase text-violet-800 font-bold shadow-xl">Details</button>
+                    <Link to="/shakilTech"><button className="btn btn-outline w-full border-b-4 border-teal-500 mt-6 border-t-0 uppercase text-violet-800 font-bold shadow-xl">Details</button></Link>
 
                 </div>
                 <div className="w-52 md:w-60 lg:w-80 p-8 bg-teal-100 rounded-xl shadow-xl border-t-2">
@@ -69,7 +70,7 @@ const Projects = () => {
                     <p className="mt-4"><span className="font-bold">Technologies:</span> <br /> React <br /> Tailwind <br /> DaisyUI</p>
                     <hr className="mt-2" />
                     
-                    <button className="btn btn-outline w-full border-b-4 border-teal-500 mt-12 border-t-0 uppercase text-violet-800 font-bold shadow-xl">Details</button>
+                    <Link to="/eventManagement"><button className="btn btn-outline w-full border-b-4 border-teal-500 mt-12 border-t-0 uppercase text-violet-800 font-bold shadow-xl">Details</button></Link>
 
                 </div>
                 
