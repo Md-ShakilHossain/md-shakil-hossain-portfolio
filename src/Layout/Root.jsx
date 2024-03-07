@@ -28,6 +28,12 @@ const Root = () => {
                     <div className="bg-gradient-to-l from-teal-100 via-teal-50 to-teal-100 rounded-xl w-11/12 mx-auto py-0 md:py-1 lg:py-2 mt-4">
                         <li className="text-center"><NavLink className={({ isActive, isPending }) =>
                             `text-sm md:text-lg lg:text-xl ${isPending ? "pending" : isActive ? "underline text-[#FF444A]" : ""}`
+                        } to='/group-projects'>Group Projects</NavLink></li>
+                    </div>
+
+                    <div className="bg-gradient-to-l from-teal-100 via-teal-50 to-teal-100 rounded-xl w-11/12 mx-auto py-0 md:py-1 lg:py-2 mt-4">
+                        <li className="text-center"><NavLink className={({ isActive, isPending }) =>
+                            `text-sm md:text-lg lg:text-xl ${isPending ? "pending" : isActive ? "underline text-[#FF444A]" : ""}`
                         } to='/skills'>Skills</NavLink></li>
                     </div>
 
@@ -53,7 +59,7 @@ const Root = () => {
                         <div className="flex gap-2 justify-center items-center">
                             <li><Link to={`https://www.facebook.com/shakil.bsb/`}><FaFacebook className="text-teal-100 md:text-2xl opacity-60"></FaFacebook></Link></li>
 
-                            <li><Link to={`https://www.linkedin.com/in/md-shakil-hossain-ba55a82a0/`}><FaLinkedin className="text-teal-100 md:text-2xl opacity-60"></FaLinkedin></Link></li>
+                            <li><Link to={`https://www.linkedin.com/in/md-shakil-hossain-bsb/`}><FaLinkedin className="text-teal-100 md:text-2xl opacity-60"></FaLinkedin></Link></li>
 
                             <li><Link to={`https://github.com/Md-ShakilHossain`}><FaGithub className="text-teal-100 md:text-2xl opacity-60"></FaGithub></Link></li>
                         </div>

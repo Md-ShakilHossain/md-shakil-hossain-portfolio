@@ -9,6 +9,8 @@ import Contact from "../Pages/Contact/Contact";
 import DreamJobs from "../Components/DreamJobs/DreamJobs";
 import ShakilTech from "../Components/ShakilTech/ShakilTech";
 import EventManagement from "../Components/EventManagement/EventManagement";
+import GroupProject from "../Pages/GroupProject/GroupProject";
+import InnovateEd from "../Components/InnovateEd/InnovateEd";
 
 
 export const router = createBrowserRouter([
@@ -23,6 +25,10 @@ export const router = createBrowserRouter([
         {
           path: "/projects",
           element: <Projects></Projects>
+        },
+        {
+          path: "/group-projects",
+          element: <GroupProject></GroupProject>
         },
         {
           path: "/skills",
@@ -43,6 +49,10 @@ export const router = createBrowserRouter([
         {
           path: "/dreamJob",
           element: <DreamJobs></DreamJobs>
+        },
+        {
+          path: "/innovateEd",
+          element: <InnovateEd></InnovateEd>
         },
         {
           path: "/shakilTech",

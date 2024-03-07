@@ -3,6 +3,7 @@ import { useTypewriter } from "react-simple-typewriter";
 import flower from '../../assets/images/flower.png';
 import cv from '../../../public/cv.pdf'
 
+
 const Home = () => {
 
     const [text] = useTypewriter({
@@ -26,6 +27,7 @@ const Home = () => {
             <Helmet>
                 <title>Home</title>
             </Helmet>
+           
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row-reverse justify-between items-center">
                     <div className="md:w-3/5 lg:w-2/5">
